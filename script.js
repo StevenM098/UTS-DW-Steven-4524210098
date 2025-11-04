@@ -27,5 +27,5 @@ document.addEventListener('DOMContentLoaded', () => {
     inputNama.addEventListener('input', updatePreview);
     inputHarga.addEventListener('input', updatePreview);
     inputDeskripsi.addEventListener('input', updatePreview);
-    updatePreview();
+    updatePreview(); /*update kartu katalog*/
 });
